@@ -150,8 +150,8 @@ const showCards = (clickedButton) => {
             </svg>
             </button>
         </div>
-        <div class="flex">
-            <span class="current-time">${timeframe.current}</span>
+        <div class="flex hours">
+            <span class="current-time">${timeframe.current}hrs</span>
             <span class="previous-time">${previousTimeFrame} - ${timeframe.previous}hrs</span>
         </div>
     </div>
